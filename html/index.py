@@ -1,6 +1,6 @@
 def application(environ, start_response):
     status = '200 OK'
-    output = 'Hello World! asda sdj askdjaskdj zzzzzzzzzzzzzzzzz '
+    output = 'Hello World! asda sdj askdjaskdj zzzzzzzzzzzzzzzzz xxxxx'
 
     response_headers = [('Content-type', 'text/plain'),
                         ('Content-Length', str(len(output)))]
